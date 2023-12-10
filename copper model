@@ -1,0 +1,18 @@
+for i in F['data']['pincodes']:
+                name = i['name']
+                registeredUsers = i['registeredUsers']
+                columns6['Pincode'].append(name)
+                columns6['RegisteredUsers'].append(registeredUsers)
+                columns6['State'].append(state)
+                columns6['Year'].append(year)
+                columns6['Quarter'].append(int(file.strip('.json')))
+df_top_user = pd.DataFrame(columns6)
+for i in F['data']['pincodes']:
+                name = i['name']
+                registeredUsers = i['registeredUsers']
+                columns6['Pincode'].append(name)
+                columns6['RegisteredUsers'].append(registeredUsers)
+                columns6['State'].append(state)
+                columns6['Year'].append(year)
+                columns6['Quarter'].append(int(file.strip('.json')))
+df_top_user = pd.DataFrame(columns6)
